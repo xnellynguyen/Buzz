@@ -58,7 +58,7 @@ import static spark.Spark.*;
  * 
  */
 public class App {
-    private static final String GOOGLE_CLIENT_ID = "691318830475-e26bc040cccn4puav2rbkpqqmqlt6tmt.apps.googleusercontent.com";
+    private static final String GOOGLE_CLIENT_ID = "[GOOGLE CLIENT ID GOES HERE]";
 
 
     // ADD COMMENTTTT
