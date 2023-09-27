@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the build method from the SingleIdeaState class, for the Dart programming language.">
+  <title>build method - SingleIdeaState class - single_idea library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../../static-assets/styles.css?v1">
+  <link rel="icon" href="../../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../../index.html">buzz_app</a></li>
+    <li><a href="../../widgets_single_idea_single_idea/widgets_single_idea_single_idea-library.html">single_idea</a></li>
+    <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState-class.html">SingleIdeaState</a></li>
+    <li class="self-crumb">build method</li>
+  </ol>
+  <div class="self-name">build</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span class="material-symbols-outlined">
+        brightness_4
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-method">build</span> method 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+</h1></div>
+
+    <section class="multi-line-signature">
+      
+  <div>
+    <ol class="annotation-list">
+        <li>@<a href="https://api.flutter.dev/flutter/dart-core/override-constant.html">override</a></li>
+    </ol>
+  </div>
+
+<span class="returntype"><a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span>
+<span class="name ">build</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="build-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span></li>
+</ol>)
+
+      <div class="features"><span class="feature">override</span></div>
+
+    </section>
+    
+<section class="desc markdown">
+  <p>Describes the part of the user interface represented by this widget.</p>
+<p>The framework calls this method in a number of different situations. For
+example:</p>
+<ul>
+<li>After calling <a href="../../widgets_single_idea_single_idea/SingleIdeaState/initState.html">initState</a>.</li>
+<li>After calling <a href="https://api.flutter.dev/flutter/widgets/State/didUpdateWidget.html">didUpdateWidget</a>.</li>
+<li>After receiving a call to <a href="https://api.flutter.dev/flutter/widgets/State/setState.html">setState</a>.</li>
+<li>After a dependency of this <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object changes (e.g., an
+<a href="https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html">InheritedWidget</a> referenced by the previous <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> changes).</li>
+<li>After calling <a href="https://api.flutter.dev/flutter/widgets/State/deactivate.html">deactivate</a> and then reinserting the <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object into
+the tree at another location.</li>
+</ul>
+<p>This method can potentially be called in every frame and should not have
+any side effects beyond building a widget.</p>
+<p>The framework replaces the subtree below this widget with the widget
+returned by this method, either by updating the existing subtree or by
+removing the subtree and inflating a new subtree, depending on whether the
+widget returned by this method can update the root of the existing
+subtree, as determined by calling <a href="https://api.flutter.dev/flutter/widgets/Widget/canUpdate.html">Widget.canUpdate</a>.</p>
+<p>Typically implementations return a newly created constellation of widgets
+that are configured with information from this widget's constructor, the
+given <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a>, and the internal state of this <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object.</p>
+<p>The given <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a> contains information about the location in the
+tree at which this widget is being built. For example, the context
+provides the set of inherited widgets for this location in the tree. The
+<a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a> argument is always the same as the <code>context</code> property of
+this <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object and will remain the same for the lifetime of this
+object. The <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a> argument is provided redundantly here so that
+this method matches the signature for a <a href="https://api.flutter.dev/flutter/widgets/WidgetBuilder.html">WidgetBuilder</a>.</p>
+<h2 id="design-discussion">Design discussion</h2>
+<h3 id="why-is-the-build-method-on-state-and-not-statefulwidget">Why is the <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> method on <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a>, and not <a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a>?</h3>
+<p>Putting a <code>Widget build(BuildContext context)</code> method on <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> rather
+than putting a <code>Widget build(BuildContext context, State state)</code> method
+on <a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a> gives developers more flexibility when subclassing
+<a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a>.</p>
+<p>For example, <a href="https://api.flutter.dev/flutter/widgets/AnimatedWidget-class.html">AnimatedWidget</a> is a subclass of <a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a> that
+introduces an abstract <code>Widget build(BuildContext context)</code> method for its
+subclasses to implement. If <a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a> already had a <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> method
+that took a <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> argument, <a href="https://api.flutter.dev/flutter/widgets/AnimatedWidget-class.html">AnimatedWidget</a> would be forced to provide
+its <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object to subclasses even though its <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object is an
+internal implementation detail of <a href="https://api.flutter.dev/flutter/widgets/AnimatedWidget-class.html">AnimatedWidget</a>.</p>
+<p>Conceptually, <a href="https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html">StatelessWidget</a> could also be implemented as a subclass of
+<a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a> in a similar manner. If the <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> method were on
+<a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a> rather than <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a>, that would not be possible anymore.</p>
+<p>Putting the <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> function on <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> rather than <a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a> also
+helps avoid a category of bugs related to closures implicitly capturing
+<code>this</code>. If you defined a closure in a <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> function on a
+<a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a>, that closure would implicitly capture <code>this</code>, which is
+the current widget instance, and would have the (immutable) fields of that
+instance in scope:</p>
+<pre class="language-dart"><code class="language-dart">// (this is not valid Flutter code)
+class MyButton extends StatefulWidgetX {
+  MyButton({super.key, required this.color});
+
+  final Color color;
+
+  @override
+  Widget build(BuildContext context, State state) {
+    return SpecialWidget(
+      handler: () { print('color: $color'); },
+    );
+  }
+}
+</code></pre>
+<p>For example, suppose the parent builds <code>MyButton</code> with <code>color</code> being blue,
+the <code>$color</code> in the print function refers to blue, as expected. Now,
+suppose the parent rebuilds <code>MyButton</code> with green. The closure created by
+the first build still implicitly refers to the original widget and the
+<code>$color</code> still prints blue even through the widget has been updated to
+green; should that closure outlive its widget, it would print outdated
+information.</p>
+<p>In contrast, with the <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> function on the <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object, closures
+created during <a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a> implicitly capture the <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> instance instead of
+the widget instance:</p>
+<pre class="language-dart"><code class="language-dart">class MyButton extends StatefulWidget {
+  const MyButton({super.key, this.color = Colors.teal});
+
+  final Color color;
+  // ...
+}
+
+class MyButtonState extends State&lt;MyButton&gt; {
+  // ...
+  @override
+  Widget build(BuildContext context) {
+    return SpecialWidget(
+      handler: () { print('color: ${widget.color}'); },
+    );
+  }
+}
+</code></pre>
+<p>Now when the parent rebuilds <code>MyButton</code> with green, the closure created by
+the first build still refers to <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object, which is preserved across
+rebuilds, but the framework has updated that <a href="https://api.flutter.dev/flutter/widgets/State-class.html">State</a> object's <a href="https://api.flutter.dev/flutter/widgets/State/widget.html">widget</a>
+property to refer to the new <code>MyButton</code> instance and <code>${widget.color}</code>
+prints green, as expected.</p>
+<p>See also:</p>
+<ul>
+<li><a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a>, which contains the discussion on performance considerations.</li>
+</ul>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">@override
+Widget build(BuildContext context){
+  &#47;&#47;FutureBuilder&lt;List&lt;TitleMessagePair&gt;&gt; fb;
+  return Stack(
+    alignment: Alignment.topLeft,
+    children: &lt;Widget&gt;[
+      Align(
+        &#47;&#47; This is the like button that is a heart, and is red with a like or gray without one.
+        &#47;&#47; When pressed adds a like through the function at the top, but removes if already has a like!
+        alignment: const Alignment(.85,1),
+        child: MaterialButton(
+            minWidth: 15,
+            color: Colors.black,
+            child: Icon(Icons.favorite, color: likeCount &gt; 0 ? Colors.red : Colors.grey),
+            onPressed: () {
+              setState(() {
+                addLike();
+              });
+            &#47;&#47; Need to send the _likeCount to the database!
+            },
+        ),
+      ),
+      Align(
+        alignment: const Alignment(.9,1),
+        child:
+        &#47;&#47; Prints out the likecount besides the like button.
+            Text (
+              &#39;$likeCount&#39;,
+              style: const TextStyle(color: Colors.black, fontSize: 20,height:1.25),
+
+            ),
+      ),
+      Align(
+        alignment: Alignment.topCenter,
+        child: Container(
+          height: 100,
+          width: 1200,
+          color: Colors.white,
+          child: Center(
+            child: FutureBuilder&lt;TitleMessagePair&gt;(
+              future: _future_title_message_pair,
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  return Text(
+                    snapshot.data!.message,
+                    style: const TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 17,
+                  ),
+                );
+                } else if (snapshot.hasError) {
+                  return Text(&#39;${snapshot.error}&#39;, style: const TextStyle(
+                    color: Colors.black));
+                }
+
+                &#47;&#47; By default, show a loading spinner.
+                return const CircularProgressIndicator();
+              },
+            ),
+          ),
+        ),
+      ),
+      &#47;&#47; const SizedBox(width: 100 ),
+      Align(
+        alignment: const Alignment(-.9,1),
+        child: Container(
+          height: 40,
+          width: 200,
+          color: Colors.black,
+          child: Center(
+            child: FutureBuilder&lt;TitleMessagePair&gt;(
+              future: _future_title_message_pair,
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  return Text(
+                    snapshot.data!.title,
+                    style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 15,
+                  ),
+                );
+                } else if (snapshot.hasError) {
+                  return Text(&#39;${snapshot.error}&#39;, style: const TextStyle(
+                    color: Colors.white));
+                }
+
+                &#47;&#47; By default, show a loading spinner.
+                return const CircularProgressIndicator();
+              },
+            ),
+            &#47;* child: Text(
+              &#39;Title&#39;,
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontSize: 15,
+              ),
+            ) snapshot.data!.title*&#47;
+          ),
+        ),
+      ),
+      &#47;&#47; const SizedBox(height: 100 ),
+    ],
+  );
+  &#47;*return SizedBox(
+    width: 1000, &#47;&#47; needs to be smaller for mobile? overflow of pixels
+    height: 100,
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          color: Colors.blue,
+          shape: BoxShape.rectangle,
+          border: Border.all(color: Colors.white, width: 2),
+        ),
+        child: FutureBuilder&lt;TitleMessagePair&gt;(
+          future: _future_title_message_pair,
+          builder: (context, snapshot) {
+            if (snapshot.hasData) {
+              return Text(snapshot.data!.title, selectionColor: Colors.white);
+            } else if (snapshot.hasError) {
+              return Text(&#39;${snapshot.error}&#39;, selectionColor: Colors.white);
+            }
+
+            &#47;&#47; By default, show a loading spinner.
+            return const CircularProgressIndicator();
+          },
+        ),
+        *&#47;
+        &#47;***
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: &lt;Widget&gt;[
+            &#47;&#47; Starting from here and ending when it says return child,
+            &#47;&#47; I got this code idea from the tutorial but not currently working as hoped.
+
+            fb = FutureBuilder&lt;TitleMessagePair&gt;(
+              future: _future_title_message_pair,
+              builder: (BuildContext context, AsyncSnapshot&lt;List&lt;TitleMessagePair&gt;&gt; snapshot) {
+                Widget child;
+
+                if (snapshot.hasData) {
+                  &#47;&#47; developer.log(&#39;`using` ${snapshot.data}&#39;, name: &#39;my.app.category&#39;);
+                  &#47;&#47; create  listview to show one row per array element of json response
+                  child = ListView.builder(
+                      &#47;&#47;shrinkWrap: true, &#47;&#47;expensive! consider refactoring. https:&#47;&#47;api.flutter.dev&#47;flutter&#47;widgets&#47;ScrollView&#47;shrinkWrap.html
+                      padding: const EdgeInsets.all(16.0),
+                      itemCount: snapshot.data!.length,
+                      itemBuilder: &#47;*1*&#47; (context, i) {
+                        return Column(
+                          children: &lt;Widget&gt;[
+                            ListTile(
+                              title: Text( &#47;&#47;${widget.id}
+                                &quot;Idea: ${widget.id}   Title:${snapshot.data![widget.id].title}  Message: ${snapshot.data![widget.id].message}&quot;,
+                                &#47;&#47; snapshot.data![i].str,
+                                style: const TextStyle(color: Colors.white, fontSize: 15),
+                              ),
+                            ),
+                            &#47;&#47;const Divider(height: 1.0),
+                          ],
+                        );
+                      });
+                } else if (snapshot.hasError) { &#47;&#47; newly added
+                  child = Text(&#39;${snapshot.error}&#39;);
+                } else {
+                  &#47;&#47; awaiting snapshot data, return simple text widget
+                  &#47;&#47; child = Text(&#39;Calculating answer...&#39;);
+                  child = const CircularProgressIndicator(); &#47;&#47;show a loading spinner.
+                }
+                return child;
+              },
+            ),
+            *&#47;
+            &#47;&#47;return fb;
+            &#47;&#47; Had this idea in ListTile as well but it returns a List&lt;TitleMessagePair&gt;
+            &#47;&#47; instead of the expected String return.
+            &#47;*ListTile(
+              title: Text(messages.makeGetRequestForOne(widget.id) as String, &#47;&#47; This should get replaced with makeGetRequestForOne(int id) I think.
+                            style:const TextStyle(color: Colors.white,fontWeight:FontWeight.w400, height:1, fontSize: 20),
+                            textAlign: TextAlign.start,)
+              ),*&#47;
+            &#47;&#47; Mostly unneeded, used as a placeholder when building. Can still utilize or use as needed.
+            &#47;*const SizedBox(width: 50 ),
+            DecoratedBox(
+              position: DecorationPosition.background,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                shape: BoxShape.rectangle,
+                border: Border.all(color: Colors.yellow, width: 2),
+              ),
+                child: const Text(&#39;Message&#39;, &#47;&#47; This should get replaced with makeGetRequestForOne(int id) I think for message
+                  style:TextStyle(color: Colors.black, fontSize: 15,height:1),
+                  textAlign: TextAlign.center,
+                ),
+            ),*&#47;
+
+            &#47;&#47; This is the like button that is a heart, and is red with a like or gray without one.
+            &#47;&#47; When pressed adds a like through the function at the top, but removes if already has a like!
+            &#47;&#47;const SizedBox(width: 50 ), &#47;&#47; needs to be smaller for mobile? overflow of pixels
+            &#47;***
+            MaterialButton(
+              minWidth: 15,
+              color: Colors.black,
+              child: Icon(Icons.favorite, color: likeCount &gt; 0 ? Colors.red : Colors.grey),
+              onPressed: () {
+                setState(() {
+                  addLike();
+                });
+                &#47;&#47; Need to send the _likeCount to the database!
+              },
+            ),
+            &#47;&#47; Prints out the likecount besides the like button.
+            Text (
+              &#39;$likeCount&#39;,
+              style: const TextStyle(color: Colors.white, fontSize: 15,height:1),
+
+            ),
+            *&#47;
+            &#47;&#47; Here is a possible delete button idea or practice when needed. Not fully functional.
+            &#47;*const SizedBox(width: 50 ), &#47;&#47; needs to be smaller for mobile? overflow of pixels
+            MaterialButton(
+              minWidth: 15,
+              color: Colors.grey,
+              child: const Text(&#39;Delete Idea&#39;),
+              onPressed: () {
+                &#47;&#47; calls delete function for this individ. message
+              },
+            ),*&#47;
+          &#47;&#47;],
+        &#47;&#47;),
+      &#47;&#47;)
+  &#47;&#47;);
+}</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../../index.html">buzz_app</a></li>
+  <li><a href="../../widgets_single_idea_single_idea/widgets_single_idea_single_idea-library.html">single_idea</a></li>
+  <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState-class.html">SingleIdeaState</a></li>
+  <li class="self-crumb">build method</li>
+</ol>
+
+
+    <h5>SingleIdeaState class</h5>
+    <ol>
+
+        <li class="section-title"><a href="../../widgets_single_idea_single_idea/SingleIdeaState-class.html#constructors">Constructors</a></li>
+          <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState/SingleIdeaState.html">SingleIdeaState</a></li>
+
+
+        <li class="section-title">
+          <a href="../../widgets_single_idea_single_idea/SingleIdeaState-class.html#instance-properties">Properties</a>
+        </li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/context.html">context</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+          <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState/likeCount.html">likeCount</a></li>
+          <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState/messages.html">messages</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/mounted.html">mounted</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/widget.html">widget</a></li>
+
+        <li class="section-title"><a href="../../widgets_single_idea_single_idea/SingleIdeaState-class.html#instance-methods">Methods</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/activate.html">activate</a></li>
+          <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState/addLike.html">addLike</a></li>
+          <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState/build.html">build</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/deactivate.html">deactivate</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/debugFillProperties.html">debugFillProperties</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/didChangeDependencies.html">didChangeDependencies</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/didUpdateWidget.html">didUpdateWidget</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/dispose.html">dispose</a></li>
+          <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState/initState.html">initState</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/reassemble.html">reassemble</a></li>
+          <li><a href="../../widgets_single_idea_single_idea/SingleIdeaState/removeLike.html">removeLike</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/widgets/State/setState.html">setState</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toDiagnosticsNode.html">toDiagnosticsNode</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toStringShort.html">toStringShort</a></li>
+
+        <li class="section-title inherited"><a href="../../widgets_single_idea_single_idea/SingleIdeaState-class.html#operators">Operators</a></li>
+          <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    buzz_app
+      1.0.0+1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../../static-assets/highlight.pack.js?v1"></script>
+<script src="../../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

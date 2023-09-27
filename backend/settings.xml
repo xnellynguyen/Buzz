@@ -1,0 +1,14 @@
+<settings>
+  <repositories>
+    <repository>
+      <id>google-repository</id>
+      <url>https://maven-central.storage.googleapis.com</url>
+    </repository>
+  </repositories>
+</settings>
+
+
+
+
+
+

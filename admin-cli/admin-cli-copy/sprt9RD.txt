@@ -1,0 +1,1305 @@
+commit 6ca27a34222ca2f166b0e392d49e70a811a2ac35
+Merge: e63d9d3 18ff44c
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Apr 11 09:43:13 2023 -0400
+
+    Merge branch 'pre-master' of bitbucket.org:cse216git/teamrepo into pre-master
+
+commit e63d9d374088ff59a50df9e8d56fc9f26e3bda78
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Apr 11 09:43:04 2023 -0400
+
+    Table remove user changes
+
+commit 18ff44c693bba9bdc75b53a004c8fefee7541b41
+Merge: 05940f9 740e803
+Author: Nelly Nguyen <yen225@lehigh.edu>
+Date:   Mon Apr 10 05:13:50 2023 +0000
+
+    Merged in backend (pull request #18)
+    
+    Backend Phase 2
+    
+    Approved-by: Carson Stotler
+
+commit 740e80377d5b07ac8e600de2394f602bfeb5f24d
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Apr 9 19:45:59 2023 -0400
+
+    merge conflict
+
+commit f9155694b00120931ddf87ea5c9d77cd5dabaaed
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Apr 9 19:42:38 2023 -0400
+
+    Resolve conflict
+
+commit c823d79831c02af2bb64c5c65da4000ac00e0114
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Apr 9 19:20:06 2023 -0400
+
+    resolve conflict
+
+commit 5d2bafa3767039c1b1c27b546b1c7088549960b4
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Apr 9 19:18:03 2023 -0400
+
+    resolve merge conflict
+
+commit 816cb449e3b22fb91d5f6318389328d2d4eca7eb
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Apr 9 00:55:30 2023 -0400
+
+    OAuth works. Session key verification flow works. Life is good.
+
+commit aeba328d203a532b8afd03a4475b584ecd9816b1
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Apr 9 00:08:29 2023 -0400
+
+    edits
+
+commit ea1373df9258034805c3876bb718045488f19bcf
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sat Apr 8 22:23:15 2023 -0400
+
+    edits
+
+commit 5e3430f8dc78760a2429e4d40fba990f815f70a5
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sat Apr 8 16:03:01 2023 -0400
+
+    tested all routes except for login and logout
+
+commit ebf2652012b93408f2eeed8778206b21e32905a8
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sat Apr 8 01:06:28 2023 -0400
+
+    Tested get comments commentid, put comments commentid, put likes id, put dislikes id, get profile, get profile userid. Routes left: put profile, edit put comments commentid, and post login and logout. Note: UPDATE THE WAY U VERIFY USER IN SESSION ALLOWING THEM TO EDIT THEIR OWN INFO AND COMMENT
+
+commit 4b6ddbf8d0df2e598265d522765b79b37107e913
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Apr 7 15:00:01 2023 -0400
+
+    get messages, post messages, get messages id, get messages comment id, post comments id routes are tested and all passed
+
+commit 05940f958b923100099d5da5047a6ab05ee0161f
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Apr 6 09:29:48 2023 -0400
+
+    tests for user spefcic
+
+commit c57567ca4f2f5ac8f9b5365a00acee412209d8df
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Wed Apr 5 23:22:19 2023 -0400
+
+    Logout route
+
+commit 8e75144fc1d00bbafd1cb8711e867ad5b1724707
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Wed Apr 5 22:38:00 2023 -0400
+
+    updateLike and updateDislike method in Database.java
+
+commit a1d71db2f7a9b1cf2a4a2f305b866505e6ee757c
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Wed Apr 5 21:39:23 2023 -0400
+
+    Worked on updateLike method in Database -- either upvote or remove upvote (back to neutral)
+
+commit c001b9ee3911330f5b56d38746bb70af387856e5
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Wed Apr 5 18:10:08 2023 -0400
+
+    working on updateLike method in Database.java
+
+commit ccf2cbb2ca7824737b4e25490942f55ce8e8c18c
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 10:22:26 2023 -0400
+
+    Delete folder
+
+commit d696b3281b9ad93a5b9ba433cf7125033d11c076
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 10:14:51 2023 -0400
+
+    Rename folder from old name to new name
+
+commit 092fbd4350ea857311259283dfeab640c2db9801
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 10:09:29 2023 -0400
+
+    Move copied folder to new branch
+
+commit 2a088e1ef85b59ae172bc85c11f5a159b2dc36e3
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 10:07:19 2023 -0400
+
+    Add copied folder
+
+commit ec40e9fc55bc62f4827035d1c664033ceaae7e6f
+Merge: 66fa4d2 98d90d8
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 10:00:47 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:cse216git/teamrepo
+
+commit 66fa4d23a97ce63fa8ef79e250792448c5eb4075
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 10:00:27 2023 -0400
+
+    Readme changes
+
+commit 98d90d840ee67a263570a686f4c7fa93cec36c4f
+Merge: f6f8927 28e37ed
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Apr 2 09:56:43 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:cse216git/teamrepo
+
+commit f6f892791fa6a2bb1f7aad2d9886dbe7c764ce50
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Apr 2 09:54:19 2023 -0400
+
+    done PM report. Just need to add test descriptions in README.
+
+commit 28e37ed7efc2e93a8e5c0bf33bd1f908bab12328
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 09:27:21 2023 -0400
+
+    connections and comments
+
+commit 7728595cba643ecba3a8f9df1a2ba952be5895e4
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Apr 2 09:19:46 2023 -0400
+
+    comments
+
+commit 51833cf44bfd3713a708cf14686d4e05ee8ccfd3
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Apr 2 02:38:43 2023 -0400
+
+    Modified existing database structure to reflect new ERD, modified existing routes, added more routes (refer to docs in drive)
+
+commit 64d5c3e57fd2be3d85403d858e9b331758265157
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 31 19:11:56 2023 -0400
+
+    Added some admin user stories and tests on README
+
+commit bbfcdae8fc9410194a44e9351a8e38f24da64f6f
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Mar 31 15:40:27 2023 -0400
+
+    POST route for authentication, GET route for profile page, added preparedStatements for tblUser & tblComment & tblVote, added uSelectOne method, uGetId method in Database.java, added another constructor in DataRow for tblUser
+
+commit e14d4be334c6a14c2b5f76345985ad6fce22c749
+Merge: bbfc620 353d0a2
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 31 14:44:23 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:cse216git/teamrepo
+
+commit bbfc620a03008f20795426d7a8666b02eb934100
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 31 14:43:52 2023 -0400
+
+    User stories and some tests
+
+commit 0c68eafffddaf3abc26d9178e89f276eb85af25b
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 31 12:02:15 2023 -0400
+
+    PM report grammar change
+
+commit 353d0a2085a0ff878b63f7ede13b6ad62a1fdefe
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 31 12:01:01 2023 -0400
+
+    progress on PM report
+
+commit 1182d5c3bd19f173425e1cae70ac7bf2855f921a
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 31 11:30:27 2023 -0400
+
+    reorganized docs folder some. working on PM report.
+
+commit de91891e66104fb1650e7a1609cccd9f9286157a
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Thu Mar 30 16:37:23 2023 -0400
+
+    temp
+
+commit 6de3c3f6b39fdcae6a00c8e7138fa1d288d67960
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 30 10:33:19 2023 -0400
+
+    Added backlog to README for Phase 2
+
+commit 861e36b4ba8b73a9eb27216963dac91e7bdbd761
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 30 10:23:53 2023 -0400
+
+    Updated README for Phase 2 with images.
+
+commit a2a66af6e6f3ec861866e5501097af0a33114467
+Merge: 734cd1b 5d33c4b
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 30 10:00:44 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:cse216git/teamrepo
+
+commit 734cd1b300478a2661ce1052cb49981919cfa74e
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 30 09:45:02 2023 -0400
+
+    Updated .gitignore
+
+commit 83d51072ebe7f392c75d6db5cf1bec66f0560980
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Thu Mar 30 02:08:54 2023 -0400
+
+    POST (/login) route. GET (/profile) route. Both used for login. Added hashing method for session key. Added method to verify access token. Added hashMap to store session key and associated user. Added user class.
+
+commit 5d33c4b3a3ea0386a12454d1676fea5c4f634822
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 30 04:13:18 2023 +0000
+
+    Images_Phase2/Docs/README_Images_Phase_2.md edited online with Bitbucket
+
+commit c279c2e976e8c1cf93c35fd561426a23d915469a
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 30 04:12:24 2023 +0000
+
+    Images_Phase2/README_Images_Phase_2.md edited online with Bitbucket
+
+commit d101452a1b85572b4b450437630838c5f4eb2252
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 30 04:10:41 2023 +0000
+
+    README_Images_Phase_2.md created online with Bitbucket
+
+commit a703403d2786df4ee7d4ea97604ba0289e61ab44
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Wed Mar 29 20:51:54 2023 -0400
+
+    edits to Procfile
+
+commit 30f8120632c1db991fb11afb165cff67bd77a155
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Wed Mar 29 17:07:17 2023 -0400
+
+    added mobile(web) folder to backend branch
+
+commit e3e76893c4fa4ec152508a6bc5dfe4af99ce1a0f
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 28 03:25:48 2023 +0000
+
+    README-phase2.md edited online with Bitbucket
+
+commit 0126acd5dda0a7e8f883bb23497e88ea73add3a0
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 28 03:25:04 2023 +0000
+
+    README-phase2.md created online with Bitbucket
+
+commit 81bcc3d5b8ec2835454c6590009aa0dffc603848
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 28 03:21:46 2023 +0000
+
+    phase2-sprint8-PM.md edited online with Bitbucket
+
+commit 4359fd5fc6a7f740d0aa57a927ddf5e5829e8193
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 28 03:19:12 2023 +0000
+
+    Docs/phase2-sprint8-PM_report_template.md edited online with Bitbucket
+
+commit 21f931d0646e9ae6cb0053bc0c70088f9a0112cc
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 28 03:16:32 2023 +0000
+
+    phase2-sprint8-PM_report_template.md created online with Bitbucket
+
+commit a35b0eafe9edf227ef16f29078d58e80a5111362
+Merge: 152b1a1 1889d58
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 22:43:02 2023 -0500
+
+    Merge branch 'pre-master'
+
+commit 152b1a1b831915c9648a6dfee98699bb27de1059
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 22:39:37 2023 -0500
+
+    Removed an old ERD image from images needed of artifacts
+
+commit 5d2ec1d4dfc744c8588379526a23db58e2fef78d
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 22:37:58 2023 -0500
+
+    Added Phase 1 Sprint 7 PM report to docs in main
+
+commit 6b9a53931fed6d03c962b0519ace58b3eb579e43
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 17:48:36 2023 -0500
+
+    Changed some artifacts in the phase 1 README in docs folder of mastter branch
+
+commit 1889d5865da4e929fc2d9bc030228273d4331924
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 17:37:06 2023 -0500
+
+    Updated Main README format
+
+commit 6e406c78dba8317c8c328fb116704a0aba898ed8
+Merge: 9b2b34f 92853e2
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 17:28:21 2023 -0500
+
+    Merge branch 'pre-master' of bitbucket.org:cse216git/teamrepo into pre-master
+
+commit 9b2b34faa1db93af5adf4e17252ecc31003b38e0
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 17:27:58 2023 -0500
+
+    Updated README
+
+commit 3ec8dda1b8235c05ca7a34f4a47c9d4e6e551a3a
+Author: Jesus Gutierrez <jeg325@lehigh.edu>
+Date:   Sun Mar 26 22:15:20 2023 +0000
+
+    Docs/pmReport edited online with Bitbucket
+
+commit 1e85cbeb63e116b92e698ab5c0c0e14751335799
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 17:37:27 2023 -0400
+
+    The real target folder
+
+commit ed19a24f5b92d993fd67a7584e58aeace880de91
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 17:09:11 2023 -0400
+
+    Delete uneeded folders from backend
+
+commit 92853e23c4a305fca12b3ac5df3b6bd31fdadd4c
+Merge: c3aeeb4 e5dd280
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 15:35:00 2023 +0000
+
+    Merged in backend (pull request #15)
+    
+    Backend
+
+commit e5dd28062f04fc969c24ceb6de1afa441a3b6d5e
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 11:04:52 2023 -0400
+
+    App chnages
+
+commit c3aeeb4bede4b320f739b043293a9e9eadbb8493
+Merge: 6a95b63 2295f87
+Author: Nelly Nguyen <yen225@lehigh.edu>
+Date:   Sun Mar 26 15:04:34 2023 +0000
+
+    Merged in admin (pull request #14)
+    
+    Update to README
+    
+    Approved-by: Jesus Gutierrez
+
+commit 2295f87cee22fafcd6dc8efe89689ff34c8f0a37
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Mar 26 11:03:25 2023 -0400
+
+    Update to README
+
+commit ad19692d22c154e21824508443ccdc45982ea6a2
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 11:02:41 2023 -0400
+
+    REadme and URI chnages
+
+commit 9c441a6ef41d5ac480ea4e907ef50a9e49fff074
+Merge: 9a72f30 36d50f2
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 10:55:32 2023 -0400
+
+    Update URI stuff
+
+commit 6a95b63ac7ff07ba343a9a3c5b33c5d03c5af9a3
+Merge: 84a5154 ec14866
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 26 14:53:24 2023 +0000
+
+    Merged in mobile (pull request #13)
+    
+    README.md edited online with Bitbucket
+
+commit 36d50f20c179b7dbcd487d48af01c290ea3b9f15
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 10:52:57 2023 -0400
+
+    same
+
+commit abcf4cd9a4bf6f9b0cebef0b691d11277a38e133
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 10:52:44 2023 -0400
+
+    URI updated
+
+commit ec148664687dca3af3776f145005b9e3ae9e489a
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 26 14:47:12 2023 +0000
+
+    README.md edited online with Bitbucket
+
+commit 84a51547e498d871e2e2b8e5fda47aee430c7f13
+Merge: 664ccdd c0728cb
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 26 14:20:49 2023 +0000
+
+    Merged in mobile (pull request #12)
+    
+    Mobile
+    
+    Approved-by: Jesus Gutierrez
+
+commit c0728cb9ca00e87d8547b38af31325530b154b6b
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 26 10:18:09 2023 -0400
+
+    Commit all the dart docs!
+
+commit 5ff46e6999c27c09afb7cfd00bec9b91384a705f
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 10:15:47 2023 -0400
+
+    uri chnage
+
+commit 9a72f30ad458ed4e2f9644b750794bbd8ea85d17
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 10:04:22 2023 -0400
+
+    URI build change
+
+commit 664ccdd621a08ddb51fb0dfa954de2ce4c70b74b
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 26 09:04:07 2023 -0500
+
+    Fixed some file managment
+
+commit 378d74de99a804491c344fe7f82c1ce401d7f8ac
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 10:00:30 2023 -0400
+
+    uri change
+
+commit f8a7c71a901850a7af4998045ca8af79bec863bf
+Merge: dacee61 46aa4f5
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 13:56:46 2023 +0000
+
+    Merged in backend (pull request #11)
+    
+    Backend
+
+commit 46aa4f5abe8cce6bcf30ab934e93a12892a18b96
+Merge: eb6735d dacee61
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 09:55:02 2023 -0400
+
+    Merge remote-tracking pre-master' into backend
+
+commit eb6735d48815a831c1e5fa1e01367001fb2dda26
+Merge: b686dd2 9bc30a5
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 09:22:55 2023 -0400
+
+    Merge branch backenddokku of teamrepo into backend
+
+commit dacee6198b07ebdc9f486f5c67c6032998654e3b
+Author: Jesus Gutierrez <jeg325@lehigh.edu>
+Date:   Sun Mar 26 12:48:10 2023 +0000
+
+    Deleted a log file that was accidentally added
+
+commit c3d4e4f67437063f320b603fb9fee3ab9be4a254
+Merge: adfc285 ead8110
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 26 12:47:19 2023 +0000
+
+    Merged in mobile (pull request #8)
+    
+    Mobile
+    
+    Approved-by: Jesus Gutierrez
+
+commit 9bc30a5a3f7afc58304c9b01c9579cb1118edf7d
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Sun Mar 26 08:40:54 2023 -0400
+
+    javadocs files
+
+commit ca1d2ec79c3dbd4aa9afff74ca8304582c36bff5
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 26 01:05:55 2023 -0400
+
+    Was trying to mess with flutter unit tests,
+    but do not fully understand them and didn't get them fully to work!
+
+commit adfc28570cda3ef1a30e70a46c8741f4bdab6c86
+Merge: 4b4d55e a9fd363
+Author: Nelly Nguyen <yen225@lehigh.edu>
+Date:   Sun Mar 26 00:48:27 2023 +0000
+
+    Merged in admin (pull request #9)
+    
+    Admin
+    
+    Approved-by: Jesus Gutierrez
+
+commit ead811000d77395c5e8b49c4c167ce9e2ef7a612
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 25 17:53:57 2023 -0400
+
+    trying to commit dart doc files in buzz_app/doc/api folder, they are a bunch of html files that don't want to commit for some reason.
+
+commit fc5ad7c729b4d19614bff21f0a79d2c4d61c2327
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 25 17:34:58 2023 -0400
+
+    Commented everything! Ready for pull request!
+    Only thing I didn't get fully working was having the
+    page automatically refresh when I post a new idea on InputView page.
+
+commit a9fd3633fb9f98d72617246a985da46d06bc77fa
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sat Mar 25 17:25:12 2023 -0400
+
+    Update: Instructions in README.md
+
+commit 2b22cb65c42e5680d6e2dad001598ece92e18be0
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sat Mar 25 15:20:44 2023 -0400
+
+    updates to README.md
+
+commit bf442df1cb96c0c420a398f254d09f507dc60ea5
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 25 00:39:10 2023 -0400
+
+    Page still not refreshing automatically when a
+    post is liked or created. Scrollable now.
+
+commit 1a96e8a3ec9538de932df047b5edb0843aa38824
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 24 23:37:11 2023 -0400
+
+    Like count for individual messages are sent to
+    DB when button is pushed! Need to make it refresh the like count immediately, as well as have the input view/all messages refresh when adding a post.
+
+commit 634a210568ffd5da0390af3d389d493f5426d840
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 24 21:49:46 2023 -0400
+
+    Comments for exaplainations
+
+commit 86bf62fbf662e5e6b4dd0db12c44697be256c163
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 24 20:47:30 2023 -0400
+
+    Some final app, db and
+
+commit 91b0a53eab6560b931dbb79b0ec038f5d91fdcbf
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 24 20:29:53 2023 -0400
+
+    Can now increase and decrease a like
+
+commit f08aa1d117df3bc5d578e5b0a420ee8b21cf2079
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 24 20:16:57 2023 -0400
+
+    Like a message updated
+
+commit 0fcba17ac3bf68cfcbddf0110c8f7bb2fc2922aa
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Mar 24 15:20:39 2023 -0400
+
+    Added artifacts
+
+commit cac312e6e3c48268b93069fe28b32678317ea301
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 24 10:57:35 2023 -0400
+
+    POST works! Can read in all messages and like
+    button is functional, but does not send the new like count to the database.
+    Also, have to refresh the page to get a new idea created, so will have to fix that.
+    Haven't worked on PUT or DELETE.
+
+commit 43d1c787bbb10dfbaff5b28d113b9e6c80bc0b61
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 24 10:49:15 2023 -0400
+
+    Chnages to backend dokku APP
+
+commit 7f3e9f4e50a5b6707d383de9201991f75fbce700
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 24 09:22:52 2023 -0400
+
+    Delete and put updates
+
+commit 05860b7184b2278640221102f4d8b0f80a51bbac
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 24 08:53:46 2023 -0400
+
+    Post works
+
+commit e185dc94db8ea65a0e99209c29c93dfb1d82f394
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 23 22:36:07 2023 -0400
+
+    Fixed Formatting for output. GET for all works
+    correctly. Still need to fix GET for ONE I believe
+    and need to fix POST, unable to POST at the moment.
+    Also, need to connect the like button to the like count
+    of the individual post. Like Button not functioning at the moment.
+
+commit 54507b446d75538beea4ed952ff143366f35de61
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 21:38:30 2023 -0400
+
+    pom chnage
+
+commit 53e584ad076a8a7e59a03acdd7572d6a210db847
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 21:15:18 2023 -0400
+
+    gson test
+
+commit 02f53a9d578a4a09f0b61258dad491fc65095042
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 21:12:00 2023 -0400
+
+    New changes
+
+commit aa31444b20bfef27d3f4e8a6623d84697bcb8355
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 21:07:17 2023 -0400
+
+    private try simplerequest
+
+commit 3664569db32ccaee897891280ca788fb4c1f7f7b
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 20:58:53 2023 -0400
+
+    request body test
+
+commit ba1ee2dc8da8b84428bc59f3fe688ac50146abd9
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 20:49:22 2023 -0400
+
+    println chnage
+
+commit 2a90cf777f0d6c638fe1d759525f037bf2e11974
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 20:47:28 2023 -0400
+
+    App chnage for ID
+
+commit e3f0d568ad2514b0ab67b9a63990ad08ce4bb7a2
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 20:28:44 2023 -0400
+
+    fix the /id issue
+
+commit 04801d2a643664e10c6eae58306aab3a0a1db915
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 20:18:28 2023 -0400
+
+    Datarow chnage
+
+commit 01a279e7a804e400704f22b6912f8e0113968632
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 23 20:12:18 2023 -0400
+
+    GET for all is currently working and can show the messages on the web frontend along with a button and likecount. Likecount can't remove likes (like 1 or 0), GET for a single message is not working. POST is not working. Hopefully will be fixed shortly.
+
+commit fad2bb345736fde4d0506f672825cfd3be6629d1
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 16:56:55 2023 -0400
+
+    Local get connection change
+
+commit 203510f1c24c3ad95c8a6865351691d1f6e37a6d
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 16:51:21 2023 -0400
+
+    getDatabaseConnection chnage
+
+commit 2b7abc3f4f0b1d9df005f7b72f275628f4a3ea87
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 16:40:56 2023 -0400
+
+    App chnage
+
+commit 3e27c2d034a59c325b755698c5948bdc70e2aeb4
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 14:49:31 2023 -0400
+
+    app chnag
+
+commit 6d1cfbdb820dd12afd9e104195a86226d77e1dd5
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 14:44:23 2023 -0400
+
+    App
+
+commit 640b2d3bca38bf0eae7e072bebfd9a74bcf846be
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 14:35:24 2023 -0400
+
+    App changeand DB
+
+commit 78b445349c3709f44d2cb9d57d693827251c5bd4
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 14:24:35 2023 -0400
+
+    Database chnages
+
+commit 07ee8d78bca6ab0713bfd3b90b9818aee0fee171
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 14:24:02 2023 -0400
+
+    App chnages
+
+commit 76c9681b7e8c86cdfc78c4064be759c3d9a6c530
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 23 10:32:01 2023 -0400
+
+    Only added comments to PostView. Going to use that
+    as the main source to display the posts, similar
+    to the tutorial app.
+
+commit ff72d018c20bc0194feb17b53142ca177635f550
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 10:13:39 2023 -0400
+
+    moved files within backend folder to root of backend-dokku branch
+
+commit b686dd25aa1c28dbb3316bfface7c687a0fc69e9
+Merge: ff9cf25 2308b06
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 09:34:31 2023 -0400
+
+    Merge branch 'backend-dokku' into backend
+
+commit 2308b06839ac4144b5eec5d78f89f57134131e37
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 23 09:28:49 2023 -0400
+
+    add changes to backend
+
+commit 168f4f7b73c6f4b6f2aeb9303b12f9052da96768
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Wed Mar 22 23:14:32 2023 -0400
+
+    Minor Changes, still trying to figure out GET.
+
+commit f49d118dd98647bc5b4706bbf8f46fed32f89ccd
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Wed Mar 22 22:18:55 2023 -0400
+
+    batabase chnages
+
+commit 3ee9e45ef00a10936eb4ee98b8f909fc21051b5e
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Wed Mar 22 20:53:01 2023 -0400
+
+    App chnages
+
+commit ab593e2cfa7fb0da089b7615ed05dcbbd184e236
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Wed Mar 22 20:09:53 2023 -0400
+
+    Todays commits
+
+commit ccea9c505a479fa1fc0662c225a807a6ee6916f3
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Mon Mar 20 23:13:07 2023 -0400
+
+    Trying to fix GET and mess around with interface of app. Still not successful with GET. Currently getting error 'Expected a value of type int, but got one of type Null'.
+
+commit 75cfb0ac0685d0af42a0c23c1f1ff2041ff017fc
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 12 22:22:02 2023 -0500
+
+    Fixed some git status messages I was getting
+
+commit 5edab06718fd9fb450f9c4cb6b9e3aef15f79da7
+Merge: 651bf68 4b4d55e
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 12 22:18:20 2023 -0500
+
+    Merge branch 'pre-master'
+
+commit 4b4d55ec14bd05d1bc30ed459f7406125e99d1a1
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 12 21:49:28 2023 -0500
+
+    Modified the pre-master branch so that all backend files are in the right folder
+
+commit 651bf6881de170797f9944e12569b3081dca589d
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 12 21:36:53 2023 -0500
+
+    Added sprint 6 pm report and modified the pm report file of sprint 5
+
+commit e87eeaf23506f1798d9184460ef9d77d572d7143
+Merge: 7c9ff7b a9fcbd6
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 12 21:25:26 2023 -0500
+
+    Merge branch 'pre-master' of bitbucket.org:cse216git/teamrepo into pre-master
+
+commit 440fda480cbf8eabb5acde85c909c8a80d582154
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 11 16:58:09 2023 -0500
+
+    Commented out my code for easier understanding for teammates.
+
+commit 08ede185b0af5a032492dd43039c81eba27a82ba
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 10 15:25:30 2023 -0500
+
+    GET Request not working currently on my end. POST is working. Mostly need to get the GET to work along with connecting the likes with the individuals ids for the posts. Tried code from tutorial, nothing working at the moment.
+
+commit c30d9accc898121bcd1e546540e8262664bd1c4d
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 10 14:55:06 2023 -0500
+
+    database changes
+
+commit 5a9fc86cd6c56a517903ff84c4cadfb4426cbe25
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 10 14:30:54 2023 -0500
+
+    backend folder
+
+commit 7c9ff7bf360560dd4ca38eefb7cb9a96a4a6e0f4
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Fri Mar 10 13:30:20 2023 -0600
+
+    Changed the README.md to the one in master. This way the README.md doesn't override the master one when pre-master is merged with Master
+
+commit a9fcbd63a0efdf1e3a80f8f95b7fc8c4d27e6950
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 10 19:25:22 2023 +0000
+
+    backend created online with Bitbucket
+
+commit 10018d798399049f747454cd2cd42f8fd73b892e
+Author: Jesus Gutierrez <jeg325@lehigh.edu>
+Date:   Fri Mar 10 19:23:50 2023 +0000
+
+    yen225-log.txt edited online with Bitbucket
+
+commit ab9fb2d93fc9e2a03b3aeb35d28715587d4215a5
+Merge: c71481d ff9cf25
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 10 19:00:58 2023 +0000
+
+    Merged in backend (pull request #7)
+    
+    Backend
+    
+    Approved-by: Jesus Gutierrez
+
+commit c71481d4a1238554bcf63562a095ee9595ccaf3c
+Merge: 33918f1 7531d21
+Author: Nelly Nguyen <yen225@lehigh.edu>
+Date:   Fri Mar 10 17:18:10 2023 +0000
+
+    Merged in admin (pull request #6)
+    
+    Admin-CLI and unit tests
+    
+    Approved-by: Jesus Gutierrez
+
+commit 33918f1aa58ecfca6b0cade8d726cb31b1640d5b
+Merge: e66c270 f6f284b
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Fri Mar 10 17:05:27 2023 +0000
+
+    Merged in mobile (pull request #5)
+    
+    Mobile -- Nearly Complete Use of Flutter App Running on Web in Mobile Branch. Need to make a Flutter Branch still.
+    
+    Approved-by: Jesus Gutierrez
+
+commit 7531d219fbd8e21e0645791e00d9d16b93ff52cf
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Mar 10 12:04:18 2023 -0500
+
+    Edited unit tests for admin-cli
+
+commit 9f294c69dc77940f8bf54f894614e64cfe877c46
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 10 09:32:28 2023 -0500
+
+    push backend dukko
+
+commit ff9cf258eeb8ca501767d15456c2981636a2f195
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Fri Mar 10 09:25:56 2023 -0500
+
+    changes to pom and proc
+
+commit f6f284bfe1bcf98e56bd5a7eb5e382a4356cbd06
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 9 23:08:53 2023 -0500
+
+    Deleted Practice Files. Added some Unit Tests.
+    Still need to connect to backend and then figure
+    out the layout and how to use the messages from the backend.
+
+commit a95fba1e7b9caa22b6ad706c610d63a6ca25f6fc
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 17:30:12 2023 -0500
+
+    asd
+
+commit 767febdcf837d1795df3d88935ed072f56f2cab5
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 17:01:59 2023 -0500
+
+    asd
+
+commit 7a6b6af2548d771f844de59fe705a648d39b2b52
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 16:57:50 2023 -0500
+
+    asd
+
+commit a275210d58bd03e82c30a6b93f3301cae888f7e3
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 16:49:51 2023 -0500
+
+    changes
+
+commit 0ef291a5137ae2e0eaaad97feee7fa1fa2c94356
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 16:40:25 2023 -0500
+
+    folder changes
+
+commit 89f0920af721df1756b0de302a7478b70096c485
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 16:40:15 2023 -0500
+
+    pom and procs
+
+commit bd4b31e44a97089c125d744468f6e2da89f52a36
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 9 10:30:53 2023 -0500
+
+    Still not connected to backend. Still messing
+    around with buttons and total interface.
+    Need to have the messages read in and figure out
+    how to get the id of a message when the delete button
+    is pushed and similar activites.
+
+commit 0ad65f909ecea18d7d473e5ea4d570e6cda24411
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 09:54:43 2023 -0500
+
+    poom main
+
+commit 887b0a2c06645e0a9d7bf37413af48c5cedeefcd
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Thu Mar 9 09:54:05 2023 -0500
+
+    pom and datavase
+
+commit e15950da7f9d1bb3389f208ef6c911b0ac0ab91f
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 9 00:37:36 2023 -0500
+
+    Added a like button to each message. Still not connected to backend. Added image files, but was unable to use them. Still messing with interface. The same code does not work from web to mobile. Boxes and such get all messed up being too big.
+
+commit ed6170893ab172aa66a5731b9857ff2fec794179
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Wed Mar 8 22:58:59 2023 -0500
+
+    Have likes on each message. Still have not connected to backend. Still practicing with files and still need to fix layout.
+
+commit d8939d43a9600eebab1fcb0ad8ea92eb335e21c3
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Wed Mar 8 20:24:41 2023 -0500
+
+    Simple and strucutured req files
+
+commit 5c6828a6d3d315abe6ec9878f6fb5a476dd66dd7
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Wed Mar 8 20:21:27 2023 -0500
+
+    App and DB, changes to my tuts
+
+commit 7ba0ffd37fa315dd99167a013500dd57ef445c4a
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Wed Mar 8 20:17:33 2023 -0500
+
+    Add Data files for the DB
+
+commit d839d15cb79374cc892fc204c74d3773d54fa8d4
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Wed Mar 8 20:01:45 2023 -0500
+
+    App and pom changes
+
+commit fa022bbc79f0e35d5bb15309a858704d49f8560a
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Wed Mar 8 14:42:21 2023 -0500
+
+    Working on interface and adding messages to the homepage. Still need to connect to backend.
+
+commit 556954f1a0e9675a68bddeb9bf3a9c0ba6817ee1
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Tue Mar 7 23:48:47 2023 -0500
+
+    updated app, database and respective test sprint sprint6
+
+commit 827c847c00e446318c186f85ece8c859dccc18f3
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Mar 7 23:33:38 2023 -0500
+
+    treat backend as root of backend-dokku
+
+commit 43fa7af08a5e341e07501a02fab715e1d8c5cbbe
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Mar 7 23:33:23 2023 -0500
+
+commit b734cd6b5448e0423e3d36d1d1b44776ac531eb1
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Mar 7 23:33:04 2023 -0500
+
+    pom and app chnages
+
+commit 3ba209ccf461eb2f5340b49c381548960a8ebfbf
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 7 23:31:51 2023 -0500
+
+    Added some practice files that will probably get deleted later. Added an input view file to have a different page come up when needing idea info. Played around with main.dart to try and get the interface ready.
+
+commit 12dd1c981045dfb94d2be7eeb5e9cab2c8fada1b
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Mar 7 23:25:06 2023 -0500
+
+    added Procfile for launching on dokku
+
+commit 4a42afd895bde6aab4dcba30d64b74f355012583
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 7 18:36:09 2023 -0500
+
+    Doing whole frontend on flutter. Will redo repo at a later time. Here I was changing up and practicing on main.dart and add messages.dart which has the requests.
+
+commit efdb61c4f5de9267e3b0cc94f600888830c300fe
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Mar 7 18:06:47 2023 -0500
+
+    App and pom changes
+
+commit 424d0d235ec916b4ea0ddabe4e42132e62343b1e
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Mar 7 17:38:34 2023 -0500
+
+    pom and app updates
+
+commit 0bb80912e8f0daf5f2460c4393b4875190079bcb
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Mar 7 17:26:09 2023 -0500
+
+     App and database
+
+commit dc7d64cfc8e5411c13622c77bcdd90dca6edba81
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Tue Mar 7 08:58:03 2023 -0600
+
+    Fixed the markdown file so that our diagrams and images would show
+
+commit 3ffc84ccfb5568d91120a2578c737f1c9b3b2aac
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Tue Mar 7 00:55:52 2023 -0500
+
+    Was playing around with the interface and trying to learn how to use the buttons
+
+commit 90ba887e028b215a2bc1b42a38dc86f8afe103cb
+Merge: 000b334 e66c270
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Mon Mar 6 01:34:25 2023 -0600
+
+    Merged the current pre-master branch of sprint 5 into Master branch
+
+commit 000b334741cc30dca92ed1ca94dc5ec8f21ca6fb
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 5 23:22:18 2023 -0600
+
+    Completed PM report
+
+commit fdddda89d12fc77f59a823958a099a03d90c6d1c
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 5 21:44:34 2023 -0600
+
+    Added description of tests
+
+commit e66c270f338c411024625418f5018472d63bb620
+Merge: 18c6292 6ef816e
+Author: Nelly Nguyen <yen225@lehigh.edu>
+Date:   Mon Mar 6 02:16:40 2023 +0000
+
+    Merged in admin (pull request #2)
+    
+    Admin
+    
+    Approved-by: Jesus Gutierrez
+
+commit 18c62927cb4e500f9a198b773d7f55c2335e77f4
+Merge: df9085f 1be2edb
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Mon Mar 6 02:12:46 2023 +0000
+
+    Merged in web (pull request #3)
+    
+    Basic Structure of Web Branch and Folder for Web Page
+
+commit df9085fa1b0b76739ff1f83c4b130714ca134350
+Merge: 4a1cd83 7e2c8d0
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Mon Mar 6 02:12:38 2023 +0000
+
+    Merged in mobile (pull request #1)
+    
+    Added README.md to mobile folder
+    
+    Approved-by: Jesus Gutierrez
+
+commit d334ceb45f4098c4e0a6e80c981fa28f0b51c190
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 5 20:12:09 2023 -0600
+
+    Updated README.md files and formatting
+
+commit c8b4d434a7d99d514fb776da2e09ed9fb0a0932e
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 5 21:03:06 2023 -0500
+
+    Created userID-log.txt
+
+commit fbe3576d84d4f62c96a1e6d899e2b5e277a2cd4c
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 5 19:40:11 2023 -0600
+
+    Changed some formatting on the README.md
+
+commit 1be2edb2c16d8d77e62f143964bc9f152f6018e9
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 5 20:23:13 2023 -0500
+
+    Fixed unit tests in web branch.
+
+commit 7e2c8d010d82804796b31c1ab8030cff74ba3d1f
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sun Mar 5 20:20:21 2023 -0500
+
+    Changed like counter and its test files.
+
+commit 7bc1458eedb024e06f1cb0f891cfa37fb07c3a1d
+Author: Jesus Gutierrez <jeg@lehigh.edu>
+Date:   Sun Mar 5 19:14:26 2023 -0600
+
+    Added the file README.md to master with the team information, Functionality Description, Back End Running with Dokku and Locally, and Buzz Artifacts
+
+commit 6ef816e54185dbac283b0dd3bd19423d2e58633b
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Sun Mar 5 02:14:13 2023 -0500
+
+    unit test for admin
+
+commit f346a21be3bb5bc835aa2db5b1275c57ad50c291
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 4 15:31:41 2023 -0500
+
+    Updated some app features. Created app.css, app.ts, deploy.sh, and buzztest.ts. buzztest is where the tests are located.
+
+commit 1dc9c9c60f3b3231813ee914ac53c020d3c3c153
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 4 15:00:20 2023 -0500
+
+    Created structure of web folder with all the components similar to tutorial. Changed code to be more relevant to phase1 and our web page.
+
+commit d74a17fde433c94bd2dcdbd3ebd3595b3e95dde9
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 4 12:08:43 2023 -0500
+
+    Figuring out buttons and how to use flutter/dart. And added http dependences to pubspec -- not totally sure if that is right or needed.
+
+commit 2e7852c008f73610154300782740611cc3e2a013
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Sat Mar 4 11:25:26 2023 -0500
+
+    Created like counter tests and a class. Changed main.dart briefly, just titles and color.
+
+commit b19b8e702211824f0ba92328bd2f72e01fb0323f
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Mar 3 01:29:19 2023 -0500
+
+    database app and frontend to interact from tutorials
+
+commit ae3c25548a696bf22e1d8f330d9a2711f6da035c
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Mar 3 00:58:41 2023 -0500
+
+    completed the admin-app/maven tutorial
+
+commit 25ce620d8141cbb6689a34b72d6bf80aa8c6ac71
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Mar 3 00:55:47 2023 -0500
+
+    added a .gitignore file for the admin app
+
+commit d96c0cd97c95d1b80233da07df1362726520e6b6
+Author: nellynguyen <yen225@lehigh.edu>
+Date:   Fri Mar 3 00:46:19 2023 -0500
+
+    added skeleton of admin app based on tut 5
+
+commit ab6432ee3037d7a777c40b18ad776504c9672f83
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 2 20:39:20 2023 -0500
+
+    Created and added new flutter app - buzz app
+
+commit 01c20956c83c4fb13df1f325154299c0ee5200da
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 2 19:31:49 2023 -0500
+
+    Added README.md to web folder
+
+commit 325f268ee8676649cabeb506c625ceae539e72d3
+Author: Carson Stotler <crs225@lehigh.edu>
+Date:   Thu Mar 2 19:30:51 2023 -0500
+
+    Added README.md to mobile folder
+
+commit bb88e6d0d1b3bc086bb076d238e5384412dc73d8
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Feb 28 15:34:20 2023 +0000
+
+    pmReport created online with Bitbucket
+
+commit 4a1cd839d36c0bda6f730461e3efb84661c02c9a
+Author: Riley Dembo <rmd225@lehigh.edu>
+Date:   Tue Feb 28 15:21:06 2023 +0000
+
+    Initial commit

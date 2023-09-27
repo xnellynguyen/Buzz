@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"edu.lehigh.cse216.rmd225.backend","c":"Database.posts","l":"posts(int, String, String, int)","u":"%3Cinit%3E(int,java.lang.String,java.lang.String,int)"}];updateSearchResults();

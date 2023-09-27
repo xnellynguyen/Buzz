@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "team-6-382200",
+  "private_key_id": "51d2a7bb090fc6a47c5200c74f7c8ebd034290a3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQClXOVFhncriSE1\n4gIlWDjDfWrmjX7qoCo84NN99/Dy+zEKeTe3QK2J3+iYKl9L/i8s5aLUgkTnrMs/\nLpIYV/kvQcgliBTlypN4Y6hOFcEmzpP/1qNvnx66Sm7oz6Q27hejqV1pv7JBv4fu\nztxZrN4fKh8vugrCjL+1Pi4bjkKb8pvzKffRK67HkMhZMXe/2/Y/rSi4S8+H6P5k\nKd9Wn3b52eGmPrefh27eIK5rE5HtPUpRnl8hfNYq72CiHannus/9MKE/wQzwuq+H\nFnciKiEj3QX3kPhv/PZVJHuDFMcgGMcMM1juzzoMoppaVSacNxhHaxt0EISytcEQ\n1BaR70x/AgMBAAECggEAClyMRzN6QyGYEaLERKfHAsTYjnK+SaBYlTD3P5TqJaeE\ntqXKznJAjXuYvPQmvYHDXfpTniI9hBDJOX/HCrx0cjgafPOOb6mmXOxNrvrg+/gE\nwQqnegaL69tfILpmDUUU+R3TKx2mY0VHlLikiP/yeRxwENME+pTMLGSlifd7h/7t\nZvk63wWvArexFaAQu54GHTwZhJi6oGxTCyOWE4T7uM0UFgtYWXkoZ6C9iCqDZxaq\nuQEyPhaQLUkE+lWxq2hdthazBzkqb24YopzmWhZ8lsuUoL8UVPBIErDQcpHzxm98\n6eS+HxdNC/73MXPh+tdQHJGRyhHIHg6T2YHaAGmLAQKBgQDU4JkUyJ8TCKViZ/86\nstmc8FkZh/8DFUPDuckO8QvSQWKyDlUi9SyDGXhxjx3OHsWvtP7mogsmmkKHeGKT\ngvzlGJPNMk9GwXe7xIBpbCDUHgDDmLNTC0xJJSxWcpa3jVC6cAtHSnn/8CC/B/3G\nRSkjCD6vA5OcLQjF5o1DE4ahAQKBgQDG3EpjyAYTgegzNWsSBlKg7DGxsoNlDBFU\nQisgL4YptKTjZ/IovBcqLyALrbthBapEYnbvJQggmOxLUSZ32yejnB3Vhbe9u0aQ\nWHsf8kRbb+P2i2UbPw+OvGXK5YPePPQqErfDGojl/vUMsz6RsxThdg2C/3XyGfiL\nEns495htfwKBgQDRTRK18JsW58VT/9ReLkLvnxC7nY8JxPqfkicw3ac1zrvvPVBP\n0qc1LvHRFVnEs1TC8T4+HMzB46HN+HtTddKYnZWUhwaTFt1WbFmlTX7pj6ZIqfaG\ni/Exaa8yP/AYAIWDCW7NZViWX86ShJTrQEy1+QFIqkeTomOh0JDLhoM0AQKBgQCJ\njU8XfgBV9gG7ijOpoB3/meE13RjuCE7kTXCvLrBKoN19PyVN7+zGDRrJeT6nedew\nvbsu6BqbEaxA3L0TItBkZ1Rrobba0nOY3Nst2dJWvSqeGwWwtwn33XE7y05PpzHs\n+E2L8wrGrHisdD/PYGQNIC9wcWwQLs6ww/PgD8Or2QKBgAh8iVJ+0jFhPt1Y58xP\nW/XrVnP/A4TFKnCQa7MhIuZPmxXHq6IiQNHLO7aj5bfITIzOP9cu6ItLYfvPYzAj\ncbzFL9bDksJsNDLtDpuXOvAr0mo4hvaownlbpFKQXV2MQcQASsd1Ux/43fUemY6U\nB/NI83sySjRH+Duzl04KSCd/\n-----END PRIVATE KEY-----\n",
+  "client_email": "id-ware-engineers@team-6-382200.iam.gserviceaccount.com",
+  "client_id": "111823712115861128648",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-ware-engineers%40team-6-382200.iam.gserviceaccount.com"
+}

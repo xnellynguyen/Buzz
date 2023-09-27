@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edu.lehigh.cse216.rmd225.backend","l":"Database"},{"p":"edu.lehigh.cse216.rmd225.backend","l":"Database.posts"}];updateSearchResults();

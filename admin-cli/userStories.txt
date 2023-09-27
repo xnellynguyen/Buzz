@@ -1,0 +1,28 @@
+### User Story 8
+1. As an **admin user**
+2. I want to **be able to delete certain messages**
+3. So I can **ensure that the messages on the platform are appropriate**
+
+### User Story 9
+1. As an **admin user**
+2. I want to **see messages, add a message,  like messages, and dislike messages**
+3. So I can **use the platform the way other users are**
+
+## User Story 10
+1. As an **admin user**
+2. I want to **be able to remove users from the application*
+3. So I can  **ensure that the content on the platform is appropriate**
+
+## User Story 11
+1. As an **admin user**
+2. I want to **be able to log into the application*
+3. So I can  *use the platform the way other users are**
+
+## User Story 12
+1. As an **admin user**
+2. I want to **be able to fill out my user information for an account*
+3. So I can  *use the platform the way other users are**
+
+
+
+
